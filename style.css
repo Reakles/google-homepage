@@ -87,6 +87,7 @@ html, body {
     flex-shrink: 0;
     border-width: 1px;
     padding:10px;
+    fill: #9aa0a6;;
 }
 #input-box{
     border: 0;
@@ -102,10 +103,6 @@ html, body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    border: solid;
-    border-color: rgb(240, 240, 240);
-    border-radius: 0px;
-    border-width: 1px;
     margin: 0px 1% 0px 1%;
     width:150px;
     height: 40px;
