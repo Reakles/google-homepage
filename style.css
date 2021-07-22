@@ -94,7 +94,7 @@ html, body {
     outline:none;
 }
 .buttons {
-    background-color: rgb(236, 236, 236);
+    background-color: rgb(246, 246, 246);
     border: none;
     color: #202124;
     padding: 0;
@@ -103,12 +103,14 @@ html, body {
     display: inline-block;
     font-size: 16px;
     border: solid;
-    border-color: rgb(236, 236, 236);
+    border-color: rgb(240, 240, 240);
     border-radius: 0px;
+    border-width: 1px;
     margin: 0px 1% 0px 1%;
     width:150px;
     height: 40px;
     flex-shrink: 0;
+    font-size: 15px;
 }
 
 .buttons:hover{
@@ -133,11 +135,12 @@ html, body {
     margin-top: -5px;
     color: black;
 }
-.header-items{
-    margin: 20px 20px 20px 0px;
+.header-items, .footer-items{
+    margin: 20px 0px 20px 0px;
     padding: 5px;
     color: black;
     text-decoration: none;
+    font-size: 13px;
 }
 #google-products-link:hover, #profile-pic:hover{
     background-color: rgb(235, 235, 235);
@@ -145,4 +148,65 @@ html, body {
 
 .header-text:hover{
     text-decoration: underline;
+}
+
+.header-items, .buttons{
+    font-family: arial, sans-serif;
+}
+
+#footer{
+    display: flex;
+    justify-content: flex-start;
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
+    height: 25px;
+    background-color: #f2f2f2;
+    padding: 10px 0 5px 0;
+    border-top: 1px solid #dadce0;
+}
+
+#left-footer{
+    width: 75%;
+}
+
+#right-footer{
+    width:25%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer-items{
+    height: 20px; 
+    color:rgb(99, 99, 99);
+    padding-left: 25px;
+}
+
+.footer-items:hover{
+    text-decoration: underline;
+}
+
+#settings-button{
+    border: 0;
+    margin-top: 16px;
+    padding-top: 0;
+}
+
+#location-area{
+    display: flex;
+    justify-content: flex-start;
+    bottom: 41px;
+    position: absolute;
+    width: 100%;
+    height: 25px;
+    background-color: #f2f2f2;
+    padding: 10px 0 5px 0;
+}
+#location-indicator{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#location-indicator:hover{
+    text-decoration: none;
 }
