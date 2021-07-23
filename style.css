@@ -200,6 +200,11 @@ html, body {
     background-color: #f2f2f2;
     padding: 10px 0 5px 0;
 }
+
+#location-indicator{
+    margin:0;
+}
+
 #location-indicator:hover{
     text-decoration: none;
 }
